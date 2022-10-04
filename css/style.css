@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+body {
+  font-family: "Nunito" !important;
+}
+.btn-primary {
+  background-color: #0179a8;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0179a8 !important;
+}
+
+.px-medium {
+  padding-left: 7vw;
+  padding-right: 7vw;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* p {
+  font-size: 0.8rem;
+  margin-bottom: 0px;
+} */

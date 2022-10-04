@@ -1,0 +1,35 @@
+.portfolio-section {
+  align-items: center;
+  padding-top: 8vw;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.portfolio-section p {
+  font-size: 1rem;
+  text-align: center;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  margin-top: 5px;
+}
+
+.product {
+  background-image: url("https://picsum.photos/200");
+  background-size: cover;
+  height: 50vh;
+  /* width: 50vw; */
+
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.product-list {
+  width: 100%;
+  justify-content: space-evenly;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: center;
+  margin-top: 25px;
+}

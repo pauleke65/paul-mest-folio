@@ -1,0 +1,44 @@
+.contact-me-section {
+  align-items: center;
+  padding-top: 8vw;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.contact-box {
+  margin-top: 3%;
+  padding: 30px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #021522;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  min-height: 3em;
+}
+
+.form-control:focus {
+  color: #021522;
+  background-color: #fff;
+  border-color: rgb(1, 168, 109) !important;
+  box-shadow: 0 0 0 0.25rem rgba(1, 168, 109, 0.25) !important;
+}
+
+form {
+  /* margin: 0px; */
+  display: contents;
+}
+
+.submit-button {
+  height: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-box {
+    width: 75%;
+  }
+}
