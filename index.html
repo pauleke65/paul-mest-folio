@@ -291,17 +291,19 @@
           </p>
 
           <div class="contact-box">
-            <form action="">
+            <form action="https://formspree.io/f/mdojzyvr" method="POST">
               <div class="d-flex flex-column flex-md-row">
                 <input
                   class="form-control me-3"
                   placeholder="Full Name"
                   type="text"
+                  name="Full Name"
                 />
                 <input
                   class="form-control ms-md-4"
                   placeholder="Email Address"
                   type="text"
+                  name="Email Address"
                 />
               </div>
 
@@ -310,13 +312,20 @@
                 inputmode="numeric"
                 placeholder="Phone Number"
                 type="tel"
+                name="Phone Number"
               />
 
-              <input class="form-control" placeholder="Subject" type="text" />
+              <input
+                class="form-control"
+                placeholder="Subject"
+                type="text"
+                name="Subject"
+              />
               <textarea
                 class="mt-2 h-52 px-4 pt-4 form-control"
                 placeholder="Message"
                 rows="5"
+                name="Message"
               ></textarea>
               <button class="btn btn-primary w-full mt-4 submit-button">
                 <span><i class="bx bxs-message-dots"></i></span> Message Me
