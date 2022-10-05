@@ -1,7 +1,6 @@
 .left-box {
-  /* background-color: red; */
   height: 90%;
-  /* width: 45%; */
+
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -9,11 +8,10 @@
 }
 
 .right-box {
-  /* background-color: red; */
   height: 80%;
-  /* width: 45%; */
+
   display: none;
-  /* flex-direction: column; */
+
   justify-content: end;
   align-items: center;
 }
@@ -24,13 +22,11 @@
 }
 
 .main-content {
-  /* background-color: green; */
   height: 100%;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* z-index: 2; */
 }
 
 .icons-list div {

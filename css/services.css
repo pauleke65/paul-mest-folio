@@ -41,7 +41,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /* height: 40%; */
 }
 
 .description-box h2 {
@@ -50,7 +49,6 @@
 
 .description-box p {
   display: inline-block;
-  /* text-align: justify; */
 }
 
 div img {
