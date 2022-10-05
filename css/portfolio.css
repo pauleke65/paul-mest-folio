@@ -14,15 +14,24 @@
 }
 
 .product {
-  background-image: url("https://picsum.photos/200");
   background-size: cover;
   height: 50vh;
-  /* width: 50vw; */
+  position: relative;
 
   background-repeat: no-repeat;
   border-radius: 0.5rem;
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.product-1 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/paul-portfolio-6aec1.appspot.com/o/upload%2Fprojects%2Fcampaigner%2Fmain.jpg?alt=media&token=fbf87b02-c682-45f5-b6d6-d0de7d99e7cc");
+}
+.product-2 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/paul-portfolio-6aec1.appspot.com/o/upload%2Fprojects%2Fpaulport%2Fmain.jpg?alt=media&token=2f662ccf-1502-4fd9-967a-03dedc95be16");
+}
+.product-3 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/paul-portfolio-6aec1.appspot.com/o/upload%2Fprojects%2Fbudget-pro%2Fmain.jpeg?alt=media&token=eb1a8567-b822-4f74-a57a-2bc9074143b9");
 }
 
 .product-list {
