@@ -12,7 +12,7 @@
   /* background-color: red; */
   height: 80%;
   /* width: 45%; */
-  display: flex;
+  display: none;
   /* flex-direction: column; */
   justify-content: end;
   align-items: center;
@@ -50,4 +50,10 @@
   color: #7c8c8c;
   margin-top: 22px;
   margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .right-box {
+    display: flex;
+  }
 }
