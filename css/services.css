@@ -9,12 +9,23 @@
   flex-direction: column;
   justify-content: space-around;
   height: 40%;
-  padding: 20px;
+  padding: 10px;
   border-radius: 2%;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+@media only screen and (min-width: 768px) {
+  .services-box {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .services-box {
+    padding: 20px;
+  }
+}
 .custom-card {
   background-color: white;
   border-radius: 0.4rem;
@@ -55,5 +66,5 @@ div img {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  margin-right: 20px;
+  margin-right: 15px;
 }
